@@ -1,0 +1,22 @@
+# .NET
+**/bin/
+**/obj/
+
+# Node and Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Local environment files
+.env
+.env.*
+!env.example
+!frontend/.env.example
+
+# Editor and OS files
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini

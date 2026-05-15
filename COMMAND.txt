@@ -1,0 +1,21 @@
+# Windows PowerShell commands for local development
+
+# 1. Restore backend dependencies
+cd .\backend\NetManage.Api
+dotnet restore
+
+# 2. Run backend
+dotnet run
+
+# Return to the project root before running frontend commands
+cd ..\..
+
+# 3. Install frontend dependencies
+cd .\frontend
+npm install
+
+# 4. Run frontend
+npm run dev
+
+# 5. MongoDB note
+# MongoDB must be running locally for later phases.
